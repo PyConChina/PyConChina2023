@@ -1,5 +1,19 @@
-{% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {% block body %}
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+{% endblock %}
+{% block body %}
 <figure class="-mx-16"><img class="w-full" src="{{ 'banner.png'|asseturl }}" alt="PyConChina 2023" /></figure>
+<pre id="code" class="py-2 px-4 my-4 rounded">
+import openai
+
+openai.chat.completions.create(messages=[
+    {"role": "assistant", "message": "Welcome to PyCon China 2023!"},
+])
+</pre>
 <div class="flex justify-center space-x-2 lg:space-x-4 py-2 text-4xl font-bold">
   {% for city in this.children.filter(F._model == 'city') %}
   <a href="{{ city._path|url }}" class="py-2 px-2 text-white bg-gray-600 hover:bg-primary border-white border-b-8 transition duration-300"> {{ city.title }} </a>
@@ -10,4 +24,56 @@
   <h1 class="text-4xl my-6 flex font-thin text-white items-center space-x-2"><img src="{{'snake.png'|asseturl}}" /><span>{{item.title}}</span></h1>
   <div class="prose max-w-none prose-invert border-2 border-primary border p-4">{{item.body}}</div>
 </section>
-{% endfor %} {% endblock %}
+{% endfor %}
+{% endblock %}
+{% block scripts %}
+<script>
+  const target = document.getElementById('code');
+
+  // Highlight the code
+  hljs.highlightElement(target);
+  // Get all the child nodes
+  var children = Object.values(document.getElementById('code').childNodes);
+
+  // Empty the target
+  target.innerText = '';
+
+  // And start the animation from the first node
+  type(0);
+
+  function type(i) {
+    // Little helper
+    function randomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min) + min);
+    }
+
+    // Make the content visible
+    if (i === 0) {
+        target.style.visibility = 'visible';
+    }
+
+    // When we've displayed all the nodes
+    // Just start over
+    if (i >= children.length) {
+        return;
+    }
+
+    // Append each node to the target code placeholder
+    // And scroll that div if the code scrolls past it
+    if (children.hasOwnProperty(i)) {
+        target.appendChild(children[i]);
+
+        target.scrollTop = target.scrollHeight;
+    }
+
+    // Step to the next node
+    i++;
+
+    // Repeat the process
+    // after a variable amount of time
+    setTimeout(function () {
+        type(i);
+    }, randomNumber(500, 800));
+  }
+</script>
+{% endblock %}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ '/static/style.css'|url }}" />
     <link rel="stylesheet" href="{{ '/static/custom.css'|url }}" />
     <title>{% block title %}Welcome{% endblock %} | PyConChina 2023</title>
+    {% block head %}{% endblock %}
   </head>
   <body>
     <div class="flex flex-col min-h-screen">
@@ -15,5 +16,6 @@
       <main class="mx-auto max-w-6xl p-2 grow">{% block body %}{% endblock %}</main>
       {% include "components/footer.html" %}
     </div>
+    {% block scripts %}{% endblock %}
   </body>
 </html>
