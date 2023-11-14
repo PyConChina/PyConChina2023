@@ -1,0 +1,34 @@
+title: 主办方及合作伙伴
+---
+key: 4
+---
+body:
+
+<style>.partners img { display: inline-block; height: 6rem; }</style>
+<div class="text-center partners">
+
+## 主办方
+
+[![PyChina](pychina-logo.jpeg "PyChina")](https://pychina.org)
+
+## 协办方
+
+[![Microsoft Reactor](reactor.png "Microsoft Reactor")](https://developer.microsoft.com/reactor)
+[![ilab云赛空间](i-lab.png "i-lab云赛空间")](https://www.i-lab.sh.cn/)
+![网易数字产业中心-重庆](netease-cq.png "网易数字产业中心-重庆")
+
+![一带一路商业中心](brbc.png "一带一路商业中心")
+![西南大学开源与网络协会](swu-os.png "西南大学开源与网络协会")
+[![四块科技](4-squares.png "四块科技")](http://www.sikuaikeji.com/)
+
+![西南交大](西南交大.png "西南交大")
+
+## 社区合作伙伴
+
+[![思否](segmentfault.png "思否")](https://segmentfault.com/)
+[![VS Code 中文社区](vscode-cn.png "VS Code 中文社区")](https://github.com/vscodecc/vscodecc)
+![智用人工智能应用研究院](ai4c.png "智用人工智能应用研究院")
+
+![MoeLove（公众号）](moelove.jpg "MoeLove（公众号）")
+![Python 自动化办公社区（公众号）](python-auto.jpeg "Python 自动化办公社区（公众号）")
+</div>

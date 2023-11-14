@@ -1,0 +1,17 @@
+[project]
+authors = [
+    {name = "Frost Ming", email = "mianghong@gmail.com"},
+]
+dependencies = [
+    "lektor>=3.4.0b3",
+    "lektor-minify>=1.2",
+    "lektor-tailwind>=0.1.1",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[tool.pdm.scripts]
+serve = "lektor server"
+build = "lektor build -f minify"
+start = "python -m http.server -d _build"
+clean = "lektor clean --yes"

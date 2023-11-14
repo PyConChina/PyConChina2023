@@ -1,0 +1,40 @@
+{% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {% block body %}
+<div class="text-center">
+  <h1 class="font-bold text-4xl my-6 text-center text-shadow">PyCon China 2023: {{this.title}}</h1>
+  <p class="text-xl mb-4 text-white">开始时间: {% if this.start_date %}{{this.start_date.strftime('%Y-%m-%d %H:%M:%S')}}{% else %}待定{% endif %}</p>
+  <p class="mb-4 text-white">地点: {{this.venue|default('待定')}}</p>
+  <div>
+    {% if this.activity_url %}
+    <a href="{{this.activity_url}}" target="_blank" class="py-2 px-2 font-medium text-white hover:bg-primary transition duration-300"
+      >线下参会</a
+    >
+    {% endif %} {% if this.live_url %}
+    <a href="{{this.live_url}}" target="_blank" class="py-2 px-2 font-medium text-white hover:bg-primary transition duration-300">线上直播</a>
+    {% endif %}
+  </div>
+</div>
+<section>
+  <h1 class="text-4xl my-6 flex items-center space-x-2 font-thin text-white"><img src="{{'snake.png'|asseturl}}" /><span>演讲嘉宾</span></h1>
+  {% for talk in this.children %}
+  <a href="{{talk._path|url}}">
+    <div class="shadow-xl border-2 border-black border-solid bg-white p-4 my-4 flex items-center space-x-4">
+      <img
+        class="w-20 h-20 lg:w-40 lg:h-40 rounded-full"
+        src="{% if talk.avatar.startswith('/') %}{{talk.avatar|url}}{% else %}{{ (talk._id + '/' + talk.avatar)|url }}{% endif %}"
+        alt="{{talk.speaker}}"
+      />
+      <div>
+        <p class="mb-4"><span class="font-bold mr-4 text-xl">{{talk.speaker}}</span>{{talk.bio}}</p>
+        <p class="text-xl font-bold">{{talk.title}}</p>
+        <div class="flex items-center">
+          <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 20c4.4 0 8-3.6 8-8s-3.6-8-8-8s-8 3.6-8 8s3.6 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10S2 17.5 2 12S6.5 2 12 2m5 9.5V13h-6V7h1.5v4.5H17Z" />
+          </svg>
+          <div>{% if talk.start_date %}{{talk.start_date.strftime('%H:%M')}}{% else %}时间待定{% endif %}</div>
+        </div>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

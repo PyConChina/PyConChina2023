@@ -1,0 +1,17 @@
+title: 用 GitHub 完成 Python 的全技术栈开发
+---
+body:
+
+大家有在 GitHub 做开源项目吗？新一代的 GitHub 不仅有代码、CI/CD 等项目管理的功能，还可以结合 GitHub CodeSpaces 完成跨终端跨应用场景的代码编译，更好维护你的开源项目。
+
+本次分享会用 GitHub CodeSpaces 和 GitHub CodeSpaces 打造一个全场景 AIoT 解决方案。
+---
+bio: 微软云技术布道师
+---
+introduction: 专注于不同技术的布道，乐于分享
+---
+speaker: 卢建晖
+---
+avatar: lu-jian-hui.jpeg
+---
+start_date: 2022-12-17 11:30:00 Asia/Shanghai

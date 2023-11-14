@@ -1,0 +1,13 @@
+{% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {% block body %}
+<figure class="-mx-16"><img class="w-full" src="{{ 'banner.png'|asseturl }}" alt="PyConChina 2023" /></figure>
+<div class="flex justify-center space-x-2 lg:space-x-4 py-2 text-4xl font-bold">
+  {% for city in this.children.filter(F._model == 'city') %}
+  <a href="{{ city._path|url }}" class="py-2 px-2 text-white bg-gray-600 hover:bg-primary border-white border-b-8 transition duration-300"> {{ city.title }} </a>
+  {% endfor %}
+</div>
+{% for item in this.children.filter(F._template == 'page.html').order_by('key') %}
+<section>
+  <h1 class="text-4xl my-6 flex font-thin text-white items-center space-x-2"><img src="{{'snake.png'|asseturl}}" /><span>{{item.title}}</span></h1>
+  <div class="prose max-w-none prose-invert border-2 border-primary border p-4">{{item.body}}</div>
+</section>
+{% endfor %} {% endblock %}

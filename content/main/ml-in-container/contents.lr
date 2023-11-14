@@ -1,0 +1,17 @@
+title: 在容器中开发机器学习应用程序
+---
+avatar: /anonymous.jpg
+---
+bio: TensorChord
+---
+body: 随着快速增长的机器学习生态系统，环境变得越来越复杂。为新项目建立一个方便的环境可能需要几天时间。同时，容器也变得成熟。公司将其服务部署到 Kubernetes 集群的生产环境中，平台正在努力提供云 IDE 环境，以帮助人们顺利入门。同样的事情也发生在机器学习行业。envd' 旨在将这些特性引入机器学习开发管道。
+---
+introduction:
+
+https://github.com/tensorchord/envd 维护者\
+https://github.com/mosecorg/mosec 作者\
+专注于机器学习平台
+---
+speaker: Keming
+---
+start_date: 2022-12-17 10:00:00 Asia/Shanghai

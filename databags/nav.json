@@ -1,0 +1,29 @@
+{
+  "main": [
+    { "title": "首页", "url": "/", "eng": "Index" },
+    {
+      "title": "大会",
+      "eng": "Conference",
+      "children": [
+        { "title": "关于大会", "url": "/about" },
+        { "title": "讲师/议题征集", "url": "/cfp" },
+        { "title": "合作伙伴", "url": "/partners" }
+      ]
+    },
+    { "title": "组委会", "eng": "Organization", "children": [{ "title": "成为志愿者", "url": "/volunteer" }] },
+    {
+      "title": "演讲",
+      "eng": "Schedule",
+      "children": [
+        { "title": "北京", "url": "/beijing" },
+        { "title": "上海", "url": "/shanghai" },
+        { "title": "杭州", "url": "/hangzhou" },
+        { "title": "重庆", "url": "/chongqing"},
+        { "title": "成都", "url": "/chengdu" },
+        { "title": "深圳", "url": "/shenzhen" }
+      ]
+    }
+  ],
+  "extra": [],
+  "legacy": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"]
+}

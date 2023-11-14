@@ -1,0 +1,5 @@
+[project]
+name = PyConChina 2023
+output_path = _build
+
+[packages]

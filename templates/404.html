@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <div class="flex justify-center items-center h-96 shadow-xl font-thin border-primary border text-white p-8">
+    <div class="flex flex-col items-center">
+      <img src="{{'snake.png'|asseturl}}" alt="snake">
+      <p class="text-4xl mb-6">404: 页面未找到</p>
+      <div class="flex space-x-3">
+        <a href="{{ '/'|url }}" class="py-2 px-2 font-medium text-white hover:bg-primary transition duration-300">返回首页</a>
+        <a href="https://github.com/PyConChina/PyConChina2022/issues/new" class="py-2 px-2 font-medium text-white hover:bg-primary transition duration-300" target="_blank">报告问题</a>
+      </div>
+    </div>
+{% endblock %}

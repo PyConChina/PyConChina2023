@@ -1,0 +1,22 @@
+title: Python 启动加速探索及实践
+---
+avatar: yan-yi-chen.jpg
+---
+bio: 阿里云高级工程师
+---
+body:
+
+Serverless 架构的普及对 Python 应用的冷启动速度提出了新的要求，在真实的 Python 应用中模块导入占据了大部分的启动时间。为了提升 Python 应用程序的启动速度，近期发布的 Python 3.11  将内置模块的导入速度优化了大约15%。遗憾的是真实世界的应用启动耗时集中在第三方包的加载，复杂应用无法从3.11的这一项优化中获益。
+
+我们研发了 PyCDS（代码对象共享）技术，将三方库的加载速度提升至与 Python 3.11内置模块持平的速度。在不修改应用代码的情况下，实现15%-20%的启动加速。该方案还被集成到了 Serverless 解决方案中，能够显著减少 Serverless 场景下的冷启动开销。
+
+我们将从 CPython 社区相关工作、本方案的设计及实现、以及业务层面的集成等方面进行介绍。
+---
+introduction:
+
+曾于 Oracle Labs 参与 GraalVM 开发，目前工作内容主要为 Python 与 Node.js 的运行时优化。
+
+---
+speaker: 严懿宸
+---
+start_date: 2022-12-17 10:45:00 Asia/Shanghai

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Bitmap;
+  src: url('./fonts/DinkieBitmap-9px.woff2') format('woff2');
+}
+
+.text-shadow {
+  text-shadow: -1px -1px 0 #ffbb06, 1px -1px 0 #ffbb06, -1px 1px 0 #ffbb06, 1px 1px 0 #ffbb06;
+}
+.hover\:text-shadow:hover {
+  text-shadow: -1px -1px 0 #ffbb06, 1px -1px 0 #ffbb06, -1px 1px 0 #ffbb06, 1px 1px 0 #ffbb06;
+}
+
+.font-bitmap {
+  font-family: Bitmap, sans-serif;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu-item {
+  position: absolute;
+  top: 100%;
+  display: none;
+  white-space: nowrap;
+}
+
+.menu:hover .menu-item {
+  display: block;
+}
+
+body {
+  background-image: url('./pattern.png');
+  background-repeat: repeat;
+  background-size: 2rem;
+}

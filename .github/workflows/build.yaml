@@ -1,0 +1,57 @@
+name: "Deploy Website"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "README.md"
+      - "LICENSE"
+      - "**/.gitignore"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: pdm-project/setup-pdm@v3
+        with:
+          python-version: '3.10'
+          cache: true
+
+      - name: Install dependencies
+        run: pdm install
+
+      - name: Build
+        run: pdm run build
+      - uses: actions/upload-artifact@v3
+        with:
+          name: website
+          path: _build
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: PyConChina/PyConChina.github.io
+          token: ${{ secrets.GH_TOKEN }}
+
+      - run: rm -rv ./2023
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: website
+          path: '2023'
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add 2023
+          git commit -m "Deploy 2023 website"
+          git push origin master
+
