@@ -40,7 +40,7 @@ jobs:
           repository: PyConChina/PyConChina.github.io
           token: ${{ secrets.GH_TOKEN }}
 
-      - run: rm -rv ./2023
+      - run: rm -rfv ./2023 || true
 
       - uses: actions/download-artifact@v3
         with:
