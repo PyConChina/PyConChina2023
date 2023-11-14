@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ '/static/custom.css'|url }}" />
     <title>{% block title %}Welcome{% endblock %} | PyConChina 2023</title>
   </head>
-  <body class="bg-primary">
+  <body>
     <div class="flex flex-col min-h-screen">
       {% include "components/nav.html" %}
       <main class="mx-auto max-w-6xl p-2 grow">{% block body %}{% endblock %}</main>
