@@ -15,7 +15,7 @@
           {% if item.children %}
             <div class="menu">
               <div class="py-4 px-2 cursor-pointer text-white transition duration-300 hover:text-shadow">{{ item.title }} / {{ item.eng }}</div>
-              <div class="menu-item shadow-lg border">
+              <div class="menu-item bg-black border">
                 {% for child in item.children %}
                 <a href="{{ child.url|url }}" class="block py-2 pl-2 pr-6 text-white transition duration-300 hover:bg-primary">{{ child.title }}</a>
                 {% endfor %}
