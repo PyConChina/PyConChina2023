@@ -1,0 +1,17 @@
+title: Python 中可观测性技术浅析
+---
+avatar: manjusaka.jpg
+---
+bio: Freelancer，开源爱好者
+---
+body:
+
+通常在我们排查问题的时候。将面临如何去观测，调试一个 Python 进程中的状态这样一个玄学问题。
+
+Python 从 3.6 开始，内置的可以利用的工具逐渐多了起来。那么我们今天来聊一下 Python 中的可观测性。
+---
+introduction: 摇曳露营是世界上最好看的动画，第三季2024.04播出
+---
+speaker: Nadeshiko Manju
+---
+start_date: 

@@ -10,7 +10,7 @@
         { "title": "合作伙伴", "url": "/partners" }
       ]
     },
-    { "title": "组委会", "eng": "Organization", "children": [{ "title": "成为志愿者", "url": "/volunteer" }] },
+    { "title": "组委会", "eng": "Organization", "children": [{ "title": "志愿者", "url": "/volunteer" }] },
     {
       "title": "演讲",
       "eng": "Schedule",
@@ -20,6 +20,7 @@
         { "title": "杭州", "url": "/hangzhou" },
         { "title": "重庆", "url": "/chongqing"},
         { "title": "成都", "url": "/chengdu" },
+        { "title": "广州", "url": "/guangzhou"},
         { "title": "深圳", "url": "/shenzhen" }
       ]
     }

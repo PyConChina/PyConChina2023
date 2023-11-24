@@ -1,0 +1,15 @@
+title: TiDB Serverless Branching：通过数据库分支简化 Python 应用开发流程
+---
+bio: PingCAP TiDB Serverless engineer
+---
+body:
+
+TiDB Serverless Branching 功能使用户能够为其 TiDB Serverless 集群创建分支。这些分支可以实现并行开发，促进新功能快速迭代，排查故障，开发者无需中断生产数据库的运行。该功能不仅简化了 Python 程序的开发和部署过程，还保持了生产环境中数据库的稳定性和可靠性。
+
+TiDB Serverless Branching enables users to create branches for TiDB Serverless clusters. With branches, developers can work in parallel, iterate rapidly on new features, troubleshoot issues without affecting the production database. This feature streamlines the development and deployment process of Python applications while ensuring a high level of stability and reliability for the production database.
+---
+introduction: 
+---
+speaker: 施宇航
+---
+avatar: shi-yu-hang.jpeg

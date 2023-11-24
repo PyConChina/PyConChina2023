@@ -6,8 +6,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
 {% endblock %}
 {% block body %}
-<figure class="-mx-16"><img class="w-full" src="{{ 'banner.png'|asseturl }}" alt="PyConChina 2023" /></figure>
-<pre id="code" class="py-2 px-4 my-4 rounded">
+<figure class="lg:-mx-16"><img class="w-full" src="{{ 'banner.png'|asseturl }}" alt="PyConChina 2023" /></figure>
+<pre id="code" class="py-2 px-4 my-4 rounded overflow-x-auto">
 import openai
 
 openai.chat.completions.create(messages=[
@@ -22,7 +22,7 @@ openai.chat.completions.create(messages=[
 {% for item in this.children.filter(F._template == 'page.html').order_by('key') %}
 <section>
   <h1 class="text-4xl my-6 flex font-thin text-white items-center space-x-2"><img src="{{'snake.png'|asseturl}}" /><span>{{item.title}}</span></h1>
-  <div class="prose max-w-none prose-invert border-2 border-primary border p-4">{{item.body}}</div>
+  <div class="prose max-w-none prose-invert border-primary border p-4">{{item.body.html.split('<!--more-->')[0]}}</div>
 </section>
 {% endfor %}
 {% endblock %}
