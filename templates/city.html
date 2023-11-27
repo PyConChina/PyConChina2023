@@ -23,8 +23,16 @@
         src="{% if talk.avatar.startswith('/') %}{{talk.avatar|url}}{% else %}{{ (talk._id + '/' + talk.avatar)|url }}{% endif %}"
         alt="{{talk.speaker}}"
       />
+      {% if talk.second_speaker %}
+      <img
+        class="w-20 h-20 lg:w-40 lg:h-40 rounded-full"
+        src="{% if talk.second_avatar.startswith('/') %}{{talk.second_avatar|url}}{% else %}{{ (talk._id + '/' + talk.second_avatar)|url }}{% endif %}"
+        alt="{{talk.second_speaker}}"
+      />
+      {% endif %}
       <div>
         <p class="mb-4"><span class="font-bold mr-4 text-xl">{{talk.speaker}}</span>{{talk.bio}}</p>
+        {% if talk.second_speaker %}<p class="mb-4"><span class="font-bold mr-4 text-xl">{{talk.second_speaker}}</span>{{talk.second_bio}}</p>{% endif %}
         <p class="text-xl font-bold">{{talk.title}}</p>
         <div class="flex items-center">
           <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24">

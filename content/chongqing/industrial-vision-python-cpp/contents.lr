@@ -1,0 +1,19 @@
+title: [闪电]工业视觉系统中的跨语言集成：Python 与 C++ 的完美结合
+---
+avatar: yangquan.jpg
+---
+bio: 哈尔滨工业大学重庆研究院机器视觉工程师
+---
+body:
+
+工业视觉系统多采用 C++ 作为主力开发语言，常常无法满足因为业务场景分散而需要进行快速验证与开发的需求。此外，基于深度学习的相关算法也逐渐开始在工业领域进行落地，模型的训练大多都有 Python 的身影。因此，本次分享想探讨一种采用 Python 作为主力开发语言，通过采用外部函数调用、扩展模块等方法将工业视觉系统中的关键模块（相机驱动、算法处理等）集成进来的方式，更便捷地完成整套工业视觉系统的研发。
+
+Topic:Cross-Language Integration in Industrial Vision Systems: The Perfect Blend of Python and C++
+
+Topic Overview:
+
+Industrial vision systems commonly adopt C++ as their primary development language, often falling short in meeting the need for swift validation and development due to the scattered nature of business scenarios. Additionally, algorithms based on deep learning are gradually finding practical application in the industrial domain, with Python playing a predominant role in model training. Hence, this presentation aims to explore an approach that employs Python as the primary development language. By employing external function calls and extending modules, critical modules within the industrial vision system, such as camera drivers and algorithmic processing, can be integrated more conveniently, facilitating the comprehensive development of industrial vision systems.
+---
+introduction: 机器视觉工程师，曾参与了多个人工智能相关软件产品的设计与研发，现主要设计与研发工业视觉系统。
+---
+speaker: 杨权

@@ -24,6 +24,17 @@
       <div class="text-base">{{ this.introduction }}</div>
     </div>
   </div>
+  {% if this.second_speaker %}
+  <div class="lg:flex items-center border-b border-gray-200">
+    <img class="w-40 h-40 rounded-full mr-6" src="{{ this.second_avatar|url }}" alt="{{this.second_speaker}}" />
+    <div>
+      <p class="text-base">
+        <span class="font-bold mr-4 text-xl">{{this.second_speaker}}</span>{{this.second_bio}}
+      </p>
+      <div class="text-base">{{ this.second_introduction }}</div>
+    </div>
+  </div>
+  {% endif %}
   {{ this.body }} {% if this.slides %}<a
     href="{{ this.slides|url }}"
     class="no-underline"

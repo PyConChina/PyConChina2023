@@ -1,0 +1,11 @@
+title: [闪电]Python 字典内部结构的变化
+---
+avatar: li-qiang.JPG
+---
+bio: 腾讯安全合规部门后端工程师
+---
+body: 阐述 Raymend Hettinger 在 CPython 3.6中对字典结构存储的改进细节，帮助大家理解语言特性。
+---
+introduction: 主要是用 Python/Golang 构建系统处理腾讯云 web 流量分析。
+---
+speaker: 李强

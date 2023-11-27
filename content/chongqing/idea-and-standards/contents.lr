@@ -1,0 +1,11 @@
+title: [闪电]珍惜想法, 尊重“规范”
+---
+avatar: chenbohan.jpg
+---
+bio: 西南大学软件工程专业
+---
+body: Python官网有这样一句标语: "Python is a programming language that lets you work quickly"。我们承认， 快速切入业务逻辑是Python最大的优点。但你是否考虑过， 当你的Python项目一步步从小作坊走向更大的舞台。 毫无规范的"快"真的还能称作"Quickly"吗。 珍惜想法不意味着一昧追求“快”。 珍惜想法， 尊重"规范"， 方能始终。 Pythonista要Pythonic! 我们崇尚完善的文档， 我们热爱装饰器， 热爱生成器， 我们喜欢Coroutine。 让我们共谈想法、规范、实现之间密不可分的关系。
+---
+introduction: 目前西南大学软件工程专业大一在读, 大约2021年加入ppysb团队, 主要负责音乐游戏 osu! 第三方服务器的开发和运维工作, 我们为全亚洲的玩家提供服务, 目前注册用户4000人左右. 在从事开发和运维的过程中大量运用Python, 我们的后端, 迁移脚本均由Python编写, 在接触sqlalchemy, fastapi等框架的过程中, 对使用Python搭建复杂架构的Web项目有一定的经验谈.
+---
+speaker: 陈泊涵

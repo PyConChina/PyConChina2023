@@ -1,0 +1,17 @@
+title: OpenHarmony 上的 Python 设备开发方案
+---
+avatar: tangzuolin.jpg
+---
+bio: 华为技术开发专家（HDE）
+---
+body: OpenHarmony 是国产开源的物联网操作系统，目前处于快速迭代发展的阶段。作为万物互联的底座操作系统，需要更多基础软件的支撑才能进一步扩大应用场景，而将 Python 引入 OpenHarmony 中无疑是扩大应用场景的关键一环，比如：中小学创客教育场景。基于  Python 语言的 Py4OH 框架将硬件设备的差异所屏蔽，提供统一的接口和开发方式，极大的提高了应用程序的可移植性；而 Python 语言简单易用的特性也使得 OpenHaromny 设备应用开发变得轻松愉快。
+---
+introduction:
+
+开源鸿蒙 Py4OH 框架作者
+开源大师兄教育开发板技术负责人
+HarmonyOS 系统课程认证讲师
+电子科大沙河科技园双创导师
+开放原子开源基金会开源大使
+---
+speaker: 唐佐林

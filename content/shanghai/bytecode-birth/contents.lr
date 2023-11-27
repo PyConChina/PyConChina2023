@@ -1,0 +1,18 @@
+title: 一条字节码的诞生
+---
+avatar: wenyang.jpg
+---
+bio: 腾讯 TEG 数据平台部编译器组工程师、CPython 社区 Contributor
+---
+body:
+
+众所周知，Python 是一门解释执行的程序语言，CPython 作为使用最广泛的 Python 解释器将 Python 代码编译成字节码，执行、输出。那么我们如何将 Python 编译成一条新增的字节码呢？又如何定义它的行为，产生正确的执行结果？让我们从一条字节码的诞生说起。
+
+本主题演讲将包括以下内容：
+- Python 编译、执行行为简述；
+- 从 CPython3.12 新增的 RETURN_CONST 来看如何自定义指令；
+- CPython 指令发展的过程与未来；
+---
+introduction: 
+---
+speaker: Wenyang Wang

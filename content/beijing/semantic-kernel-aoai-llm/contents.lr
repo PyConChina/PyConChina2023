@@ -1,0 +1,11 @@
+title: 如何利用 Semantic Kernel 和 AOAI 开发自己的 LLM 应用
+---
+avatar: zhangjintao.png
+---
+bio: 云原生技术专家
+---
+body: 本次分享将会介绍如何利用 Microsoft 开源的 Semantic Kernel 和 Azure OpenAI Service 开发自己的 LLM 应用，涵盖对 Semantic Kernel 的深入剖析和 Prompt engineering 的实践经验。听众可以在本次分享后，可以很容易的上手并开发自己的 LLM 应用。
+---
+introduction: Kubernetes ingress-nginx maintainer，containerd/Docker/Helm/Kubernetes/KIND 等众多开源项目 contributor， 『K8S 生态周报』的维护者，微软 MVP。对 Docker 和 Kubernetes 等容器化技术有大量实践和深入源码的研究，业内多个知名大会讲师，PyCon China 核心组织者，写有 《Kubernetes 上手实践》、《Docker 核心知识必知必会》和《Kubernetes 安全原理与实践》等专栏。 公众号：MoeLove
+---
+speaker: 张晋涛

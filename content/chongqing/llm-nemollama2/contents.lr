@@ -1,0 +1,23 @@
+title: 基于 LLM 构建中文场景检索式对话机器人：NEMO+LLAMA2
+---
+avatar: li-yi-peng.jpg
+---
+bio: NVIDIA 企业级开发者社区经理
+---
+body:
+
+本次分享的主题是将 NeMo toolit 工具库与 llama2 大模型以及 Llama index 工具库的结合使用，快速构建中文场景下的检索式对话引擎，本次分享主要面向于对人工智能感兴趣的开发者朋友，通过本次分享您可以获得一下内容：
+- LLAMA2 大模型介绍
+- Llama index 工具库使用
+- Nvidia NeMo toolkit 介绍
+- 代码实践：NeMo 结合 Llama2 构建中文检索式对话引擎
+
+Topic Overview:
+
+This session focuses on the integration of the NeMo toolkit with the llama2 large model and Llama index toolkit to swiftly construct a retrieval-based conversational engine in Chinese contexts. It's aimed at developers interested in artificial intelligence. Through this session, you'll gain insights into:
+- Introduction to LLAMA2 large models
+- Utilization of the Llama index toolkit
+-Overview of Nvidia NeMo toolkit
+- Code practice: Building a Chinese retrieval-based conversational engine with NeMo and Llama2
+---
+speaker: 李奕澎

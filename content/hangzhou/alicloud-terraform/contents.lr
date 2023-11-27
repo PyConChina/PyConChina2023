@@ -1,0 +1,11 @@
+title: 阿里云资源编排服务的 Terraform 托管功能
+---
+avatar: /anonymous.jpg
+---
+bio: 阿里云智能弹性计算团队研发工程师
+---
+body: 随着云上基础设施规模的增长，传统的手动部署方式不论在效率还是成本方面都难以为继。为了提高部署效率，用户可以利用阿里云的资源编排服务（ROS），通过 ROS 模板或 Terraform 模板快速、标准化地部署和管理各种云服务资源。ROS 是使用 Python 编写的，而 Terraform 是使用 Go 编写的。本次分享将介绍 ROS 如何实现 Python 与 Go 代码的交互，以及 ROS 对 Terraform 托管的能力。
+---
+introduction: 从事 Python 相关工作多年，主要负责阿里云的资源编排服务 ROS 的开发，Terraform 托管能力的支持。
+---
+speaker: 覃杨名
