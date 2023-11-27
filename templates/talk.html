@@ -12,8 +12,9 @@
   {% if this.start_date %}{{this.start_date.strftime('%Y-%m-%d %H:%M')}}{% else %}时间待定{% endif
   %}
 </h2>
+<p class="breadcumb flex"><a href="{{ this.parent.parent.path|url }}">{{ this.parent.parent.title }}</a><a href="{{ this.parent.path|url }}">{{ this.parent.title }}</a><span>{{ this.title }}</span></p>
 <article
-  class="prose prose-invert lg:prose-lg border border-primary p-4 max-w-none"
+  class="prose prose-invert lg:prose-lg border border-primary p-4 max-w-none grow"
 >
   <div class="lg:flex items-center border-b border-gray-200">
     <img class="w-40 h-40 rounded-full mr-6" src="{{ this.avatar|url }}" alt="{{this.speaker}}" />

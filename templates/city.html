@@ -2,18 +2,19 @@
 <div class="text-center">
   <h1 class="font-bold text-4xl my-6 text-center text-shadow">PyCon China 2023: {{this.title}}</h1>
   <p class="text-xl mb-4 text-white">开始时间: {% if this.start_date %}{{this.start_date.strftime('%Y-%m-%d %H:%M:%S')}}{% else %}待定{% endif %}</p>
-  <p class="mb-4 text-white">地点: {{this.venue|default('待定')}}</p>
+  <p class="text-xl mb-4 text-white">地点: {{this.venue|default('待定')}}</p>
   <div>
     {% if this.activity_url %}
-    <a href="{{this.activity_url}}" target="_blank" class="py-2 px-2 font-medium text-white hover:bg-primary transition duration-300"
+    <a href="{{this.activity_url}}" target="_blank" class="py-2 px-2 border border-primary font-medium text-white hover:bg-primary transition duration-300"
       >线下参会</a
     >
     {% endif %} {% if this.live_url %}
-    <a href="{{this.live_url}}" target="_blank" class="py-2 px-2 font-medium text-white hover:bg-primary transition duration-300">线上直播</a>
+    <a href="{{this.live_url}}" target="_blank" class="py-2 px-2 border border-primary font-medium text-white hover:bg-primary transition duration-300">线上直播</a>
     {% endif %}
   </div>
 </div>
 <section>
+  <p class="breadcumb flex border-b border-primary py-2"><a href="{{ this.parent.path|url }}">{{ this.parent.title }}</a><span>{{ this.title }}</span></p>
   <h1 class="text-4xl my-6 flex items-center space-x-2 font-thin text-white"><img src="{{'snake.png'|asseturl}}" /><span>演讲嘉宾</span></h1>
   {% for talk in this.children %}
   <a href="{{talk._path|url}}">

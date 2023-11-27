@@ -1,4 +1,5 @@
 {% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {% block body %}
 <h1 class="font-bold text-4xl my-6 flex items-center space-x-2"><img class="w-16" src="{{'arrow.png'|asseturl}}" /><span class="text-shadow">{{this.title}}</span></h1>
-<article class="prose lg:prose-lg prose-invert shadow-xl border border-primary p-4 max-w-none">{{ this.body }}</article>
+<p class="breadcumb flex"><a href="{{ this.parent.path|url }}">{{ this.parent.title }}</a><span>{{ this.title }}</span></p>
+<article class="prose lg:prose-lg prose-invert shadow-xl border border-primary p-4 max-w-none grow">{{ this.body }}</article>
 {% endblock %}
