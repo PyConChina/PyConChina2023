@@ -6,4 +6,36 @@ activity_url: https://hdxu.cn/ZsOvk
 ---
 start_date: 2023-12-16 10:00:00 Asia/Shanghai
 ---
-venue: 西南交通大学
+venue:
+
+西南交通大学
+
+content:
+
+<div class="text-center partners">
+
+## 主办方
+
+[![PyChina](pychina-logo.jpeg "PyChina")](https://pychina.org)
+---
+content:
+
+<div class="text-center partners">
+
+## 成都站协办单位
+
+![西南交大](../partners/西南交大.png "西南交大")
+
+## 成都站高校合作伙伴
+
+![电子科大](image-1.png "电子科大")
+![西南财经大学](image-2.png "西南财经大学")
+![计算机协会](image-3.png "计算机协会")
+
+## 成都站社区合作伙伴
+
+![SKFI](image-4.png "SKFI")
+![傲世](image-5.png "傲世")
+![彭涛](image-6.png "彭涛")
+
+</div>

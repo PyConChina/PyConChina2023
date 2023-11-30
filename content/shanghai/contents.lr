@@ -2,10 +2,20 @@ _model: city
 ---
 title: 上海
 ---
-start_date: 2023-12-2 10:00:00 Asia/Shanghai
+start_date: 2023-12-2 12:30:00 Asia/Shanghai
 ---
 activity_url: https://hdxu.cn/o7u5I
 ---
 venue: 上海市徐汇区田林路 192 号 J 座微软 Reactor
 ---
-live_url: https://hdxu.cn/o7u5I
+live_url: https://live.csdn.net/room/weixin_41960540/ShbDhw9g
+---
+content:
+
+<div class="text-center partners">
+
+![TiDB Community](../beijing/tidb-community.png "TiDB Community")
+![和鲸社区](image-7.png "和鲸社区")
+![爱可生开源](image-8.JPG "爱可生开源")
+
+</div>

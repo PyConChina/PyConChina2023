@@ -15,7 +15,7 @@
 </div>
 <section>
   <p class="breadcumb flex border-b border-primary py-2"><a href="{{ this.parent.path|url }}">{{ this.parent.title }}</a><span>{{ this.title }}</span></p>
-  <h1 class="text-4xl my-6 flex items-center space-x-2 font-thin text-white"><img src="{{'snake.png'|asseturl}}" /><span>演讲嘉宾</span></h1>
+  <h1 class="text-4xl my-6 flex items-center space-x-2 font-thin text-white"><img src="{{'snake.png'|asseturl}}" /><span>大会日程</span></h1>
   {% for talk in this.children %}
   <a href="{{talk._path|url}}">
     <div class="border border-primary p-4 my-4 flex items-center space-x-4 text-white">
@@ -45,5 +45,10 @@
     </div>
   </a>
   {% endfor %}
+  {% if this.content %}
+  <div class="prose lg:prose-lg prose-invert p-4 max-w-none">
+    {{ this.content }}
+  </div>
+  {% endif%}
 </section>
 {% endblock %}

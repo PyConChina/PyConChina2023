@@ -1,0 +1,22 @@
+title:
+
+How We Build Python SDK for Cloud Developers 
+---
+avatar: yanyuchao.png
+---
+bio:
+
+微软软件开发工程师 
+---
+body:
+
+云服务的使用已经越来越普遍，云服务的种类 (network/compute/storage/…) 也越来越多。面对成千上万的云服务接口，如何为使用者提供方便、快捷的访问方式，极大地影响了用户体验。SDK 作为访问工具的一种，以其使用灵活，集成方便的特性，在开发者中有广泛的受众，是云生态的重要一环。如何为广大开发者提供使用简单、方便扩展、功能强大的 SDK呢？ 
+
+本主题演讲将包括以下内容：
+- Azure SDK 概述
+- Azure SDK 关键特性，包括设计原则、azure-core，功能概览等
+- Azure Python SDK 的特点、Azure SDK 自动生成工具简介  
+---
+speaker: 闫宇超
+---
+start_date: 2023-12-02 15:20 Asia/Shanghai

@@ -2,17 +2,16 @@
 <h1 class="font-bold text-4xl my-6 flex items-center space-x-2">
   <img class="w-16" src="{{'arrow.png'|asseturl}}" /><span class="text-shadow">{{this.title}}</span>
 </h1>
-<h2 class="text-xl mb-4 flex items-center">
+<p class="breadcumb flex"><a href="{{ this.parent.parent.path|url }}">{{ this.parent.parent.title }}</a><a href="{{ this.parent.path|url }}">{{ this.parent.title }}</a><span>{{ this.title }}</span></p>
+<h2 class="text-xl mb-4 flex items-center text-white">
   <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24">
     <path
       fill="currentColor"
       d="M12 20c4.4 0 8-3.6 8-8s-3.6-8-8-8s-8 3.6-8 8s3.6 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10S2 17.5 2 12S6.5 2 12 2m5 9.5V13h-6V7h1.5v4.5H17Z"
     />
   </svg>
-  {% if this.start_date %}{{this.start_date.strftime('%Y-%m-%d %H:%M')}}{% else %}时间待定{% endif
-  %}
+  {% if this.start_date %}{{this.start_date.strftime('%Y-%m-%d %H:%M')}}{% else %}时间待定{% endif %}
 </h2>
-<p class="breadcumb flex"><a href="{{ this.parent.parent.path|url }}">{{ this.parent.parent.title }}</a><a href="{{ this.parent.path|url }}">{{ this.parent.title }}</a><span>{{ this.title }}</span></p>
 <article
   class="prose prose-invert lg:prose-lg border border-primary p-4 max-w-none grow"
 >

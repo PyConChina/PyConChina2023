@@ -1,0 +1,18 @@
+title: Xinference-大模型时代的推理平台
+---
+avatar: qinxuye.png
+---
+bio: 未来速度联合创始人 & CEO
+---
+body:
+
+主要介绍当前最领先的大模型推理技术以及优化手段，介绍开源项目 Xinference 如何更快地在本地搭建大模型服务。
+- attension 计算原理。
+- 包括 kvcache, continuous batching, speculative sampling 等常见的加速技巧。
+- Xinference 的架构以及设计
+---
+introduction: 拥有多年分布式编程、AI 和大数据系统经验，目前在未来速度担任联合创始人兼 CEO。未来速度的使命是让大规模 AI 触手可及，核心产品是 Xorbits 推理和数据平台。
+---
+speaker: 秦续业
+---
+start_date: 2023-12-02 13:00 Asia/Shanghai

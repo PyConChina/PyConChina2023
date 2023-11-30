@@ -1,0 +1,11 @@
+title: 如何构建知识图谱驱动的大模型应用
+---
+avatar: gu-si-wei.jpg
+---
+body: 大模型 RAG 范式中有很多天然痛点：chunking 对知识结构的破坏与信息浓度的预设、通用 embedding 模型的相似不相关 retrieval，等等。  知识图谱（kg）作为重要的知识持久化形式，可以在大模型技术栈中提高质量、消弭幻觉充当重要角色。  然而，kg 的构建、访问、使用方法与 LLM 场景的落地方法策略一直在演进、探索中，这让大多数 LLM 开发者望而却步，本次演讲中古思为作为 Graph RAG 的提出者将为大家解密、梳理到底 KG 如何与 LLM 结合、落地。
+---
+introduction: NebulaGraph LLM 产品 leader、LlamaIndex 项目 top 10 贡献者、NebulaGraph AI Suite  Nebula-LLM 作者、微软 Python MVP、图技术布道师
+---
+speaker: 古思为
+---
+start_date: 2023-12-02 16:45 Asia/Shanghai

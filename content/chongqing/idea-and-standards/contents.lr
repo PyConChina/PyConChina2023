@@ -9,3 +9,5 @@ body: Python官网有这样一句标语: "Python is a programming language that 
 introduction: 目前西南大学软件工程专业大一在读, 大约2021年加入ppysb团队, 主要负责音乐游戏 osu! 第三方服务器的开发和运维工作, 我们为全亚洲的玩家提供服务, 目前注册用户4000人左右. 在从事开发和运维的过程中大量运用Python, 我们的后端, 迁移脚本均由Python编写, 在接触sqlalchemy, fastapi等框架的过程中, 对使用Python搭建复杂架构的Web项目有一定的经验谈.
 ---
 speaker: 陈泊涵
+---
+start_date: 2023-12-02 16:05 Asia/Shanghai

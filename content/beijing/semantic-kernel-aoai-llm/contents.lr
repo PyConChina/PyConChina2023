@@ -9,3 +9,5 @@ body: 本次分享将会介绍如何利用 Microsoft 开源的 Semantic Kernel �
 introduction: Kubernetes ingress-nginx maintainer，containerd/Docker/Helm/Kubernetes/KIND 等众多开源项目 contributor， 『K8S 生态周报』的维护者，微软 MVP。对 Docker 和 Kubernetes 等容器化技术有大量实践和深入源码的研究，业内多个知名大会讲师，PyCon China 核心组织者，写有 《Kubernetes 上手实践》、《Docker 核心知识必知必会》和《Kubernetes 安全原理与实践》等专栏。 公众号：MoeLove
 ---
 speaker: 张晋涛
+---
+start_date: 2023-12-02 14:15 Asia/Shanghai

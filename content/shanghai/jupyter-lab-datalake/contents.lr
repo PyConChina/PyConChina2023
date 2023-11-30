@@ -1,20 +1,20 @@
 title: 基于 Jupyter Lab 的数据湖解决方案
 ---
-avatar: qinxuye.png
+avatar: zhang-qi.PNG
 ---
-bio: 未来速度联合创始人 & CEO
+bio: 易屹科技创始人
 ---
-introduction: 拥有多年分布式编程、AI 和大数据系统经验，目前在未来速度担任联合创始人兼 CEO。未来速度的使命是让大规模 AI 触手可及，核心产品是 Xorbits 推理和数据平台。
+introduction: 北京大学数学系，微软数据库和云计算高级产品经理，百度云大数据和人工智能云服务产品负责人、分众传媒研发部总经理，现易屹科技创始人。
 ---
-second_avatar: zhang-qi.PNG
+second_avatar: 
 ---
-second_bio: 易屹科技创始人
+second_bio: 
 ---
-second_introduction: 北京大学数学系，微软数据库和云计算高级产品经理，百度云大数据和人工智能云服务产品负责人、分众传媒研发部总经理，现易屹科技创始人。
+second_introduction: 
 ---
-second_speaker: 张琪
+second_speaker: 
 ---
-speaker: 秦续业
+speaker: 张琪
 ---
 body:
 
@@ -23,3 +23,5 @@ body:
 在这个演讲中，我们将分享 Analytical SQL Cell，一个开源免费的 Jupyter Lab 插件，为数据科学家提供数据湖功能的嵌入式分析引擎的技术原理、SQL 与 Python 的混编的实现细节、内置可视化的应用方案，以及在国内外企业内部的实践经验。
 
 这样，数据团队可以规避分布式系统的复杂性和成本，为人工智能应用提供更适合的数据服务。
+---
+start_date: 2023-12-02 13:40 Asia/Shanghai

@@ -66,3 +66,6 @@ body {
 .breadcumb > span {
   color: #aaa;
 }
+
+.partners img { display: inline-block; height: 6rem; }
+.partners img+img { margin-left: 1rem; }
