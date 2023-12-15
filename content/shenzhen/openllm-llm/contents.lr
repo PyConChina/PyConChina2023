@@ -1,0 +1,30 @@
+title: 使用 OpenLLM 快速部署你的 LLM 应用
+---
+avatar: frost.jpg
+---
+bio: BentoML 软件工程师 Python 开发。包管理器 PDM 作者。
+---
+body:
+
+## 提纲
+1. 大模型应用部署的挑战
+2. 使用 OpenLLM 快速启动一个大模型的应用
+   1. 通过 OpenLLM 调用大语言模型
+   1. 通过 OpenLLM 启动一个 HTTP server
+   1. 使用命令行进行模型推理
+   1. 使用 Python Client 与应用交互
+   1. OpenLLM 与 langchain 的集成
+   1. 模型推理性能的优化
+3. 使用 BentoML 工具构建并部署大模型应用
+   1. BentoML 简介
+   1. 构建一个 bento
+   1. 将 Bento 部署到 bentocloud
+## 听众收益
+1. 如何使用常见的 LLM 快速启动一个应用 
+2. LLM 应用性能优化的方法 
+3. BentoML 框架的安装与使用方法
+
+---
+speaker: 明希
+---
+start_date: 2023-12-17 15:50 Asia/Shanghai

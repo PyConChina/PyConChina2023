@@ -10,7 +10,7 @@
         { "title": "合作伙伴", "url": "/partners" }
       ]
     },
-    { "title": "组委会", "eng": "Organization", "children": [{ "title": "志愿者", "url": "/volunteer" }] },
+    { "title": "组委会", "eng": "Organization", "children": [{ "title": "志愿者", "url": "/volunteer" }, { "title": "特别鸣谢", "url": "/special-thanks" }] },
     {
       "title": "演讲",
       "eng": "Schedule",

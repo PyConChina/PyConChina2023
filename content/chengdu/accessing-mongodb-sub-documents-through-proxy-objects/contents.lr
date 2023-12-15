@@ -1,0 +1,23 @@
+title: Accessing MongoDB Sub-Documents Through Proxy Objects
+---
+avatar: jonathan.png
+---
+body:
+
+No-SQL databases like MongoDB make it easy to store application data in dictionary-like document objects. The PyMongo driver already makes it convenient to present MongoDB documents in custom Python classes.
+Sub-documents are simply child lists or dictionaries saved within a larger parent document. For example, a school management system might save students and grades as dictionaries within a "classroom" document. A shopping cart app could save color choices and inventory within each "item" document.
+This talk will demonstrate techniques for writing sub-document object classes that proxy references back to the original parent document. By proxying back to the parent, we ...
+
+1. retain the benefit of custom classes for each sub-document type
+2. maintain a single source of truth inside our application
+3. potentially reduce the need for database reads and writes
+---
+introduction:
+
+Jonathan Lindstrom and his wife Lori currently live in Singapore. Their consulting firm Headwaters Entrepreneurs mentors small business owners throughout Asia. Jonathan has spent the last 33 years working for companies large and small in various IT roles as developer, system administrator, release engineer and manager. He made the switch to Python as his primary development language a decade ago but finds there are new and interesting things to learn about Python each day.
+
+Jonathan Lindstrom 和他的妻子 Lori 目前住在新加坡。他们的咨询公司 Headwaters Entrepreneurs 为整个亚洲的小企业主提供指导。在过去的33年里，Jonathan 一直在大大小小的公司工作，担任各种 IT 角色，如开发人员、系统管理员、发布工程师和经理。十年前，他将 Python 作为自己的主要开发语言，但他发现每天都有关于 Python 的新的有趣的东西需要学习。
+---
+speaker: Jonathan Lindstrom
+---
+start_date: 2023-12-17 17:20 Asia/Shanghai

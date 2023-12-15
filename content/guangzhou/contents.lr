@@ -2,6 +2,16 @@ _model: city
 ---
 title: 广州
 ---
-start_date: 2023-12-23 10:00:00 Asia/Shanghai
+start_date: 2023-12-23 13:30:00 Asia/Shanghai
 ---
 venue: 广州图书馆
+---
+live_url: https://live.csdn.net/room/PyConChina/ulcMM7xa
+---
+content:
+
+<div class="text-center partners">
+
+![行云创新](xingyun.png "行云创新")
+
+</div>
